@@ -14,14 +14,8 @@ class DefaultLayout extends React.Component {
         }
         return (
             <div>
-                <div className="header">
-                    <Header/>
-                </div>
                 <div className={"main-content " + container}>
                     {this.props.children}
-                </div>
-                <div className="footer">
-                    <Footer/>
                 </div>
             </div>
         )
