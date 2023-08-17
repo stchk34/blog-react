@@ -1,7 +1,7 @@
 import React from 'react';
-// SiteWide
-import Header from '../layouts/Header';
-import Footer from '../layouts/Footer';
+
+// import Header from '../layouts/Header';
+// import Footer from '../layouts/Footer';
 
 class DefaultLayout extends React.Component {
     render() {
